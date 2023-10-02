@@ -46,6 +46,18 @@ We need to stream information from a smart smoker. Read one value every half min
 - Create listening callback functions for each queue.
 - Apply everything you've learned previously.
 
+### Submit
+
+## Part 1 - Project 
+
+Clickable link to your public GitHub repo with custom README and displayed screenshot: Jparton0403/streaming-05-smart-smoker (github.com)Links to an external site.
+About how long did you spend this module: About 8 hours
+Could you develop custom data pipelines for analytics using RabbitMQ and the resources available to you (y/n, why): I think that I could, just takes a little more time. I think the big challenge for me would be utilizing this day to day.
+What streaming analytics topics / techniques / skills do you think will be most helpful for the work you want to do: I think that pulling csv’s in real time to create a monitor could be extremely beneficial if I ever move to an area within my organization that could rely on telemetry.
+Describe an idea for a (relatively simple) custom analytics pipeline you might want to implement in Module 7: I think that using data of water telemetry spots throughout my municipality could be a good way to implement this technology, as we could pull all the data of each pressure point to one singular area instead of relying on just Scada telemetry.
+What was most difficult about this module: I think that the most difficult was going through the localhost as my computer decided to remove it as a trusted connection.
+What was most interesting: I think that utilizing the functionality within other code is where I found myself dabbling after coding this week.
+
 ## Screenshots
 
 ![Screenshot 1](Screenshot%202023-10-01%20133602.png)
