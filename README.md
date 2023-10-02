@@ -48,6 +48,6 @@ We need to stream information from a smart smoker. Read one value every half min
 
 ## Screenshots
 
-![Screenshot 1](path/to/Screenshot%202023-10-01%20133602.png)
+![Screenshot 1](Screenshot%202023-10-01%20133602.png)
 
-![Screenshot 2](path/to/Screenshot%202023-10-01%20133618.png)
+![Screenshot 2](202023-10-01%20133618.png)
