@@ -63,6 +63,9 @@ if __name__ == "__main__":
     # Read tasks from smoker-temps.csv and send them one by one
     with open('smoker-temps.csv', 'r') as csvfile:
         csv_reader = csv.reader(csvfile)
+        # Skip the header row
+        next(csv_reader)
+
         for row in csv_reader:
             if len(row) == 4:
                 timestamp, smoker_temp, food_a_temp, food_b_temp = row
