@@ -114,4 +114,6 @@ Did you experiment with adding alerts to the project and getting an email or tex
 Would you be able to add this feature if implementing a similar system in real life?
 Optional bonus: Did you successfully implement an alert (and clearly show it in your README.md and repo)?
 
+all three consumers.png
+
  
