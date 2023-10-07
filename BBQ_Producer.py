@@ -63,9 +63,6 @@ if __name__ == "__main__":
     # Read tasks from smoker-temps.csv and send them one by one
     with open('smoker-temps.csv', 'r') as csvfile:
         csv_reader = csv.reader(csvfile)
-        # Skip the header row
-        next(csv_reader)
-
         for row in csv_reader:
             if len(row) == 4:
                 timestamp, smoker_temp, food_a_temp, food_b_temp = row
@@ -76,4 +73,4 @@ if __name__ == "__main__":
                 # Send Food B Temp to "03-food-B" queue
                 send_to_queue("localhost", "03-food-B", f"{timestamp}, {food_b_temp}")
                 # Sleep for 30 seconds
-                time.sleep(30)
+                time.sleep(0)
