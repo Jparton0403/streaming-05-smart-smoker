@@ -7,7 +7,7 @@
     Sends bbq information in segemeted time frames of 30 second intervals
 
     Author: Joshua Parton
-    Date: September 22nd, 2023
+    Date: October 6, 2023
 ## The Problem / Challenge To Solve
 Please read about the Smart Smoker system here: Smart Smoker
 Access the smoker data file here Download smoker data file here.
